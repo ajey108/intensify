@@ -209,7 +209,6 @@ button{
 
     .green{
         width: 100%;
-        height: 300px;
         margin-top: 40px;
         background-color: rgb(12, 117, 155);
     }
@@ -253,7 +252,33 @@ button{
     /* media queries */
 
 
-    @media screen and (max-width:900px){
+    @media screen and (max-width:1200px){
+        .flex-row{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+        }
+
+        .flex-row .col-1 .magna{
+            width: 100%;
+            margin-right: 20px;
+        }
+
+        .flex-row .col-2 img{
+            margin-left: 4px;
+        }
+
+        .orange{
+            margin: 0 auto;
+        }
+
+
+
+    }
+
+
+    @media screen and (max-width:600px){
         .flex-row{
             display: flex;
             flex-direction: column;
