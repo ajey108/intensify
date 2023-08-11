@@ -84,6 +84,10 @@ button{
         margin-top: 30px;
     }
 
+    .flex-row .col-1, .col-2 , .col-3{
+        width: 30%;
+    }
+
     .flex-row .col-2 img{
         width: 100%;
         border-radius: 50%;
@@ -154,7 +158,7 @@ button{
        }
 
        .cards .consequat{
-        margin-left: 2%;
+        width: 30%;
        }
 
        .cards .consequat h1{
@@ -174,7 +178,7 @@ button{
 
 
     .cards .Adipisicing{
-        margin-left: 2%;
+        width: 30%;
        }
 
        .cards .Adipisicing h1{
@@ -192,7 +196,7 @@ button{
 
 
     .cards .Malesuada{
-        margin-left: 2%;
+        width: 30%;
        }
 
        .cards .Malesuada h1{
@@ -270,7 +274,7 @@ button{
         }
 
         .orange{
-            margin: 0 auto;
+            width:100%;
         }
 
 
@@ -294,6 +298,30 @@ button{
         .flex-row .col-2 img{
             margin-left: 4px;
         }
+
+        .cards{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+           
+        }
+
+        .cards .Adipisicing{
+            width: 100%;
+          
+            
+        }
+
+        .cards .consequat{
+            width: 100%;
+        }
+
+        .cards .Malesuada{
+            width: 100%;
+        }
+
+
 
 
     }
