@@ -260,6 +260,7 @@ button{
         .flex-row{
             display: flex;
             flex-direction: column;
+            flex-wrap: wrap;
             width: 100%;
            
         }
@@ -269,10 +270,7 @@ button{
             margin-right: 20px;
         }
 
-        .flex-row .col-2 img{
-            margin-left: 4px;
-        }
-
+       
         .orange{
             width:100%;
         }
@@ -320,8 +318,10 @@ button{
         .cards .Malesuada{
             width: 100%;
         }
-
-
+        .green hr{
+            margin-left: 33px;
+            width: 80%;
+        }
 
 
     }
